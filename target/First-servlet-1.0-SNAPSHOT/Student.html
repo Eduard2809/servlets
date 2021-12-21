@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student</title>
+</head>
+<body>
+<h1>Actions with Student Table</h1>
+<br>
+<br>
+<form action = "StudentDelete" method = "POST">
+    <fieldset>
+        <legend>Delete by id</legend>
+        Input id you want to delete: <input type = "text" name = "id">
+        <input type = "submit" value = "Submit" />
+    </fieldset>
+</form>
+<br>
+<br>
+<form action = "StudentSearch" method = "POST">
+    <fieldset>
+        <legend>Search by id</legend>
+        Input id you want to search: <input type = "text" name = "id">
+        <input type = "submit" value = "Submit" />
+    </fieldset>
+</form>
+<br>
+<br>
+<form action = "StudentChangeAge" method = "POST">
+    <fieldset>
+        <legend>Change age by id</legend>
+        Input id: <input type = "text" name = "id">
+        Input age: <input type = "text" name = "age">
+        <br>
+        <input type = "submit" value = "Submit" />
+    </fieldset>
+</form>
+</body>
+</html>
